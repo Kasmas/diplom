@@ -16,6 +16,7 @@
             <input type ="text" class="form-control" name ="login" id="login" placeholder ="Введите логин"><br>
             <input type ="password" class="form-control" name ="pass" id="pass" placeholder ="Введите пароль"><br>
             <button class ="btn btn-success">Авторизоваться</button>
+        </form>
     </div>
 
 

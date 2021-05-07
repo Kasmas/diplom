@@ -5,7 +5,7 @@
         <ul class="container nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li><a href="index.php" class="nav-link px-2 link-secondary">Home</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Играть</a></li>
-        <li><a href="/" class="nav-link px-2 link-dark">Форум</a></li>
+        <li><a href="/forum.php" class="nav-link px-2 link-dark">Форум</a></li>
         </ul>
         <?php
             if($_COOKIE['user'] == ''):

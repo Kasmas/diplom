@@ -18,7 +18,6 @@
         <button type ="submit" name ="send" class ="btn btn-success">Отправить</button>
     </form> 
 
-
     <?php require "Z:/home/localhost/www/blocks/footer.php"?>
 </body>
 </html>

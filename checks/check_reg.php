@@ -17,9 +17,9 @@
                                 echo "Недопустимая длина пароля(от 2 до 6 символов)";
                                 exit;
                             }       
-    $mysql = new mysqli('localhost','root','root','users_kasmas_bd');
+    $mysql = new mysqli('localhost','kasmas','root','users_kasmas_bd');
     $mysql->query("INSERT INTO `users` ( `login`, `pass`, `name`) VALUES ('$login', MD5('$pass'), '$name')") ;
 
     $mysql->close();
-    //header('location: /about' );
+    header('location: /index.php' );
  ?>
